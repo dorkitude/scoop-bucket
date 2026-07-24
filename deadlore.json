@@ -1,17 +1,17 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Source-aware CLI for the community-maintained Deadlock Wiki",
   "homepage": "https://github.com/dorkitude/deadlore",
   "license": "CC-BY-NC-SA-4.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/dorkitude/deadlore/releases/download/v0.6.0/deadlore_0.6.0_windows_amd64.zip",
-      "hash": "5400ad021e301c5e7558b42e0f33c215276067373d98211b2e98c27c807d0816",
+      "url": "https://github.com/dorkitude/deadlore/releases/download/v0.6.1/deadlore_0.6.1_windows_amd64.zip",
+      "hash": "a002af0b115f8a7204666664a55c10578889263f6825aaeee667dc41857e16bb",
       "bin": "deadlore.exe"
     },
     "arm64": {
-      "url": "https://github.com/dorkitude/deadlore/releases/download/v0.6.0/deadlore_0.6.0_windows_arm64.zip",
-      "hash": "f8288f7cda161dd4558b36c130786f92a78a3f607168b0a850d2573b816b6e2d",
+      "url": "https://github.com/dorkitude/deadlore/releases/download/v0.6.1/deadlore_0.6.1_windows_arm64.zip",
+      "hash": "ff3f1511b2ff3edd14f6462881c90ea5653a50367e41d71d6e7ca4f0d835bcca",
       "bin": "deadlore.exe"
     }
   },
