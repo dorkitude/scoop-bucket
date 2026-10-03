@@ -1,0 +1,31 @@
+{
+  "version": "0.2.710",
+  "description": "The whole Cloudflare platform from your terminal (Workers, R2, DNS, every API operation)",
+  "homepage": "https://github.com/dorkitude/cfctl",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/dorkitude/cfctl/releases/download/v0.2.710/cfctl_0.2.710_windows_amd64.zip",
+      "hash": "a3434f2c1034b3930cac1c45850e40d9445f5293736aea117c70bcdd00f5598b",
+      "bin": "cfctl.exe"
+    },
+    "arm64": {
+      "url": "https://github.com/dorkitude/cfctl/releases/download/v0.2.710/cfctl_0.2.710_windows_arm64.zip",
+      "hash": "d753feca90f9f3b6bc624f238cfd351fbfcd14acd9b97d2cb98c12bee41dcbb6",
+      "bin": "cfctl.exe"
+    }
+  },
+  "checkver": {
+    "github": "https://github.com/dorkitude/cfctl"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/dorkitude/cfctl/releases/download/v$version/cfctl_$version_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/dorkitude/cfctl/releases/download/v$version/cfctl_$version_windows_arm64.zip"
+      }
+    }
+  }
+}
