@@ -1,17 +1,17 @@
 {
-  "version": "0.1.100",
+  "version": "0.1.102",
   "description": "Skim pages, files, and lists with Jev: keep only what helps with your goal. Saves agent tokens.",
   "homepage": "https://github.com/dorkitude/skimmer",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/dorkitude/skimmer/releases/download/v0.1.100/skimmer_0.1.100_windows_amd64.zip",
-      "hash": "e263ae8b112f3bac8df93427539142b0e1bac70112e096c13f36290bec550a4c",
+      "url": "https://github.com/dorkitude/skimmer/releases/download/v0.1.102/skimmer_0.1.102_windows_amd64.zip",
+      "hash": "bc76411926eaee1559871567c0ec36cfbe8d3a6027144037dbf8d1e7c3c7d5d4",
       "bin": "skimmer.exe"
     },
     "arm64": {
-      "url": "https://github.com/dorkitude/skimmer/releases/download/v0.1.100/skimmer_0.1.100_windows_arm64.zip",
-      "hash": "c9de246f0044ae77d7b089c300ea51261741ca3246c01aeb90f1cf7f3f308f77",
+      "url": "https://github.com/dorkitude/skimmer/releases/download/v0.1.102/skimmer_0.1.102_windows_arm64.zip",
+      "hash": "c77337e711c84ca55ea3df6afe5e0e520efbc40aa758183cee90c851f76b91f1",
       "bin": "skimmer.exe"
     }
   },
