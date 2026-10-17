@@ -1,17 +1,17 @@
 {
-  "version": "0.3.100",
+  "version": "0.3.101",
   "description": "CLI for the DreamHost API: DNS records, announcement lists, API metacommands",
   "homepage": "https://github.com/dorkitude/dhctl",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/dorkitude/dhctl/releases/download/v0.3.100/dhctl_0.3.100_windows_amd64.zip",
-      "hash": "c35dd8a4a98f2386c3d16f27e40de5d4e05b76bbf6a1c3366f0c867e2d79e152",
+      "url": "https://github.com/dorkitude/dhctl/releases/download/v0.3.101/dhctl_0.3.101_windows_amd64.zip",
+      "hash": "bfe30746a1000ff5978b8a08da82c122153ab6b531454cdd2f3e73dd814844bb",
       "bin": "dhctl.exe"
     },
     "arm64": {
-      "url": "https://github.com/dorkitude/dhctl/releases/download/v0.3.100/dhctl_0.3.100_windows_arm64.zip",
-      "hash": "7101015bc4459e914f3417cfe2c45ca828cc9172f90c755e4e08d974c4b4b7a8",
+      "url": "https://github.com/dorkitude/dhctl/releases/download/v0.3.101/dhctl_0.3.101_windows_arm64.zip",
+      "hash": "6521e88029dcf2b5cef60e61388de52ff12b1f92b3ed25a48ca0d9b3b6b3c5d6",
       "bin": "dhctl.exe"
     }
   },
