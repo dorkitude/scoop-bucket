@@ -1,0 +1,31 @@
+{
+  "version": "0.1.2",
+  "description": "Administer a Tailscale tailnet: devices, tags, policy file, auth keys, any API endpoint",
+  "homepage": "https://github.com/dorkitude/tsctl",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/dorkitude/tsctl/releases/download/v0.1.2/tsctl_0.1.2_windows_amd64.zip",
+      "hash": "caec9b3cf95d545a7087a1c7cc7efe4aedb306be968fe7d1edd8d8cc0734f3f7",
+      "bin": "tsctl.exe"
+    },
+    "arm64": {
+      "url": "https://github.com/dorkitude/tsctl/releases/download/v0.1.2/tsctl_0.1.2_windows_arm64.zip",
+      "hash": "9c257f4289c260e2e2c58d759e5769ae0e4691c8e8bb6fd9b3db1ae4e022ac49",
+      "bin": "tsctl.exe"
+    }
+  },
+  "checkver": {
+    "github": "https://github.com/dorkitude/tsctl"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/dorkitude/tsctl/releases/download/v$version/tsctl_$version_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/dorkitude/tsctl/releases/download/v$version/tsctl_$version_windows_arm64.zip"
+      }
+    }
+  }
+}
